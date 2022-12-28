@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+h1, label {
+  font-family: "Roboto", sans-serif;
+}
+
+.billcalculator {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+}
+.billcalculator .bill-section {
+  display: grid;
+  row-gap: 1em;
+  background-color: black;
+  padding: 2em;
+  border-radius: 1.2em;
+}
+.billcalculator .bill-section h1 {
+  color: white;
+}
+.billcalculator .bill-section label {
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+}
+.billcalculator .total-bill {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.billcalculator .tax {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.billcalculator .perperson {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.billcalculator #checkbill {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 0.3em;
+}
+.billcalculator #perpersonbill {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.increment-and-decrement-person {
+  display: flex;
+  flex: 0.3;
+  gap: 1em;
+  align-items: center;
+}
+.increment-and-decrement-person #increment {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 0.3em;
+}
+.increment-and-decrement-person #decrement {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 0.3em;
+}/*# sourceMappingURL=index.css.map */

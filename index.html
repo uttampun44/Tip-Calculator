@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Calculator</title>
+    <link rel="stylesheet" href="./sass/index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="billcalculator">
+          <div class="bill-section">
+            <h1>Resturant Bill Calculator</h1>
+            <div class="total-bill">
+                    <label>Total Bill :</label>
+                    <input value="0" type="text" id="totalbill">
+           </div>
+         <div class="tax">
+                <label>Tax % :</label>
+                <input value="0" type="text" id="resturanttax">         
+          </div>
+         <div class="perperson">
+                 <label>Per Person :</label>
+                 <div class="increment-and-decrement-person">
+                    <button id="increment">+</button><span id="perpersonbill">0</span> <button id="decrement">-</button>
+                </div>
+          </div>
+         <div class="increment-decrement">
+              
+           <div class="check-result">
+                     <button id="checkbill">Check Bill</button>
+              </div>
+         </div>
+         <div class="invoice">
+
+         </div>
+          </div>
+    </div>
+</body>
+</html>

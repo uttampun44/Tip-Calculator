@@ -29,6 +29,10 @@ h1, label{
             font-size: 1em;
             font-weight: 700;
         }
+        #totalbill,
+        #resturanttax{
+            padding: .5em;
+        }
        }
        .total-bill{
         display: grid;
@@ -58,10 +62,10 @@ h1, label{
 }
 
     .increment-and-decrement-person{
-         display: flex;   
-         flex: .3; 
-         gap: 1em;  
-         align-items: center;  
+         display: flex;
+         flex: .3;
+         gap: 1em;
+         align-items: center;
         #increment{
             width: 100%;
             font-family: 'Roboto', sans-serif;
@@ -77,4 +81,21 @@ h1, label{
             padding: .3em;
         }
     }
-  
+
+    .per_person_bill{
+        p,
+        span{
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+    }
+ .invoice{
+      p, span{
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+      }
+ }

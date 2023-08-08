@@ -34,6 +34,10 @@ h1, label {
   font-size: 1em;
   font-weight: 700;
 }
+.billcalculator .bill-section #totalbill,
+.billcalculator .bill-section #resturanttax {
+  padding: 0.5em;
+}
 .billcalculator .total-bill {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -79,4 +83,19 @@ h1, label {
   font-weight: 400;
   font-size: 1em;
   padding: 0.3em;
+}
+
+.per_person_bill p,
+.per_person_bill span {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.invoice p, .invoice span {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
 }/*# sourceMappingURL=index.css.map */
